@@ -1,0 +1,24 @@
+.Global {
+
+    &__erroroBoundary {
+        &--container {
+            position: relative;
+            width: 98%;
+            margin: 25px auto;
+            background: #FFFFFF;
+            border: 1px solid rgb(132, 177, 53);
+            border-radius: 3px;
+            padding: 14px 0 0;
+        }
+
+        &--label {
+            width: 98%;
+            margin: auto;
+            padding-bottom: 1em;
+        }
+
+        &--noData {
+            padding-bottom: 10px;
+        }
+    }
+}

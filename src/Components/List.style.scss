@@ -1,0 +1,42 @@
+.List {
+    display: flex;
+
+    &__section {
+        position: relative;
+        display: inline-grid;
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 5px;
+        min-height: 200px;
+        padding: 5px 5px 30px 5px;
+
+        &--name {
+            font-weight: 900;
+            height: 30px;
+            font-size: 15px;
+            text-transform: capitalize;
+            max-width: 280px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__description {
+        font-size: 10px;
+    }
+
+    &__button {
+        border-radius: 15px;
+        margin: 5px;
+        padding: 1px 6px;
+        border: 1px solid;
+        cursor: pointer;
+        width: 10px;
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+    }
+    
+}

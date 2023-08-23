@@ -1,0 +1,14 @@
+.TaskManager {
+    margin: 10px;
+
+    &__button {
+        border-radius: 15px;
+        margin: 12px;
+        padding: 4px 10px;
+        border: 1px solid;
+        cursor: pointer;
+        width: 10px;
+        display: inline-block;
+    }
+
+}

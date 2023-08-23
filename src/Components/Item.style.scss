@@ -1,0 +1,28 @@
+.Item {
+    max-width: 300px;
+
+    &__sections {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 15px;
+
+        &--name {
+            max-width: 235px;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            text-overflow: ellipsis;
+        }
+
+        &--description {
+            font-size: 10px;
+        }
+
+        &--delete {
+            float: right;
+            cursor: pointer;
+        }
+    }
+
+}
