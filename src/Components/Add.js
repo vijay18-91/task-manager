@@ -11,10 +11,10 @@ export const Add = props => {
     return (
         <div className='Add'>
             <div className='Add__section'>
-                <input  className='Add__section--input' type='text' name='name' onChange={(event) => setName(event.target.value)} value={name} autoComplete='off' placeholder='name' autoFocus />
+                <input  className='Add__section--input' id='name' type='text' name='name' onChange={(event) => setName(event.target.value)} value={name} autoComplete='off' placeholder='name' autoFocus />
             </div>
             <div className='Add__section'>
-                <input className='Add__section--input' type='text' name='description' onChange={(event) => setDescription(event.target.value)} value={description} autoComplete='off' placeholder='description' />
+                <input className='Add__section--input' id='description' type='text' name='description' onChange={(event) => setDescription(event.target.value)} value={description} autoComplete='off' placeholder='description' />
             </div>
             <button className='Add__button' type='button' onClick={(event) => onChange(event, type, name, description)} disabled={name.length == 0}>Add</button>
         </div>
